@@ -479,7 +479,15 @@ export function LandingPage() {
                   </Button>
                 </div>
                 <address className="not-italic text-muted">
-                  Da Sy, Dong Quang, Thanh Hoa, Vietnam
+                  Da Sy, Dong Quang, Thanh Hoa, Vietnam{" "}
+                  <a
+                    href={COMPANY.mapUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="whitespace-nowrap font-semibold text-primary hover:underline"
+                  >
+                    (Google Maps & reviews)
+                  </a>
                   <br />
                   <a href={`mailto:${COMPANY.email}`} className="hover:text-primary">
                     {COMPANY.email}

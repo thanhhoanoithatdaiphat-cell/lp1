@@ -22,7 +22,9 @@ const jsonLd = {
     addressRegion: COMPANY.region,
     addressCountry: COMPANY.country,
   },
-  sameAs: [MAIN_SITE.home, MAIN_SITE.facebook, MAIN_SITE.youtube],
+  geo: { "@type": "GeoCoordinates", latitude: COMPANY.lat, longitude: COMPANY.lng },
+  hasMap: COMPANY.mapUrl,
+  sameAs: [COMPANY.mapUrl, MAIN_SITE.home, MAIN_SITE.facebook, MAIN_SITE.youtube],
   areaServed: "Asia",
   knowsAbout: [
     "School furniture",

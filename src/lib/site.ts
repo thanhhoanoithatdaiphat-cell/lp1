@@ -21,6 +21,9 @@ export const COMPANY = {
   city: "Thanh Hoa",
   region: "Thanh Hoa",
   country: "VN",
+  lat: 19.768947954322798,
+  lng: 105.76198034821354,
+  mapUrl: "https://share.google/msLzWKBLeX6YGsKX1", // Google Business Profile
 } as const;
 
 export const SEO_TITLE = "School Furniture Manufacturer in Vietnam | Dai Phat";
