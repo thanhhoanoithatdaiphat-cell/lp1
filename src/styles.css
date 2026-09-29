@@ -27,6 +27,17 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  section[id] {
+    scroll-margin-top: 4.5rem;
+  }
+
+  a,
+  button {
+    -webkit-tap-highlight-color: transparent;
   }
 
   body {

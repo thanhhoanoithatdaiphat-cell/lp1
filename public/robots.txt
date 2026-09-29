@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /__grok/
+
+Sitemap: https://school.noithatdaiphat.vn/sitemap.xml
