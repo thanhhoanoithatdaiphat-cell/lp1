@@ -454,10 +454,16 @@ export function LandingPage() {
                 drawings welcome, not required.
               </p>
               <div className="mt-10 space-y-4 text-sm">
-                <p className="flex items-center gap-3 text-fg">
+                <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-fg">
                   <Phone className="size-4 text-primary" />
-                  <a href={`tel:${COMPANY.phone}`} className="hover:text-primary">
-                    +84 967 156 678
+                  <a href={`tel:${COMPANY.phone}`} className="py-1 hover:text-primary">
+                    {COMPANY.phoneDisplay}
+                  </a>
+                  <span aria-hidden className="text-subtle">
+                    /
+                  </span>
+                  <a href={`tel:${COMPANY.phone2}`} className="py-1 hover:text-primary">
+                    {COMPANY.phone2Display}
                   </a>
                 </p>
                 <div className="flex flex-wrap gap-3">

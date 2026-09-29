@@ -11,7 +11,7 @@ const jsonLd = {
   legalName: COMPANY.legalName,
   description: SEO_DESCRIPTION,
   ...(SITE_URL ? { url: SITE_URL, logo: `${SITE_URL}/logo.png`, image: `${SITE_URL}/og.jpg` } : {}),
-  telephone: COMPANY.phone,
+  telephone: [COMPANY.phone, COMPANY.phone2],
   email: COMPANY.email,
   taxID: COMPANY.taxId,
   foundingDate: COMPANY.foundingYear,

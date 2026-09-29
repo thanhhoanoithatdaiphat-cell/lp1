@@ -125,6 +125,10 @@ export function QuoteForm() {
           <a href={`tel:${COMPANY.phone}`} className="text-primary">
             {COMPANY.phoneDisplay}
           </a>{" "}
+          /{" "}
+          <a href={`tel:${COMPANY.phone2}`} className="text-primary">
+            {COMPANY.phone2Display}
+          </a>{" "}
           or message us on{" "}
           <a
             href={COMPANY.zaloUrl}
