@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Dai Phat School Furniture",
+      "hasCanvas": false,
+      "bodyTextLen": 3408,
+      "bodyTextHash": "e2727374a8de5f9b2d1430a6adeb662160112399a13d5f9ea63b05f1420c8842",
+      "bodyTextPrefix": "DP Dai Phat SCHOOL FURNITURE Collections Factory Export process ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Dai Phat School Furniture",
+      "hasCanvas": false,
+      "bodyTextLen": 3338,
+      "bodyTextHash": "365a8bbd58a9c6589f2a33fdacad9bbf620caca19e222d8913c47f960f54e08f",
+      "bodyTextPrefix": "DP Dai Phat SCHOOL FURNITURE MADE IN VIETNAM · EXPORT TO ASIA Sc",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
